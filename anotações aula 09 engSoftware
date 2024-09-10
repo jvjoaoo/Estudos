@@ -1,0 +1,26 @@
+Abordagens da Engenharia de Software
+
+- O modelo de processo incremental
+O modelo incremental ao inves de tratar o software como um todo, ele trata pequenos incrementos (partes) do software
+
+- RUP
+A abordagem em RUP é feita em 4 fases sendo elas:
+
+  - Concepção;
+  Software é desenhado, as necessidades são entendidas e é proposta uma solução para atender as necessidades do cliente
+
+  - Elaboração;
+  O software é desenhado/modelado em UML
+
+  - Construção;
+  Codificação, instruções etc...
+
+  - Transição
+  fase de implantação do software em produção para consumo do usuário final(cliente)
+
+
+- Manifesto Ágil
+
+
+- eXtreme programming(XP)
+- scrum
