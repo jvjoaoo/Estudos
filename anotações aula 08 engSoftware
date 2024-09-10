@@ -1,0 +1,75 @@
+Modelos e processos de engenharia de software:
+
+- O que são os modelos de processos de engenharia de software?
+Quando se trabalha na elaboração de um produto ou sistema, é importante seguir uma série de passos previsíveis - 
+um roteiro que ajude a criar um resultado de alta qualidade e dentro do prazo estabelecido. O roteiro é denominado
+"processo de software". Os modelos são diferentes roteiros para desenvolvimento de software.
+
+
+- Qual modelo se deve utilizar?
+O modelo deve ser escolhido de acordo com:
+  - Natureza do projeto e do produto
+  - Método e ferramenta utilizados
+  - Controle e Produtos intermediários desejados
+
+
+
+
+- Modelo cascata ou ciclo de vida clássico
+mais utilizado (padrão)
+recomendado quando:
+  - Se tem um certo conhecimento sobre os requisitos e características sobre o projeto;
+  - O projeto não tem muitas alterações no decorrer da fase de implementação e criação;
+fases do modelo cascata:
+  - comunicação;
+  início do projeto levantamento de necessidades
+  - planejamento;
+  estimativas, cronograma, acompanhamento
+  - modelagem; 
+  análise projeto
+  - construção;
+  codificação testes
+  - Emprego/manutenção;
+  entrega, suporte e feedback
+Desvantagens do modelo em cascata:
+- Não é muito flexivel a mudanças durante o processo de criação.
+
+
+
+- Paradigma da prototipação
+prototipação serve para validar junto ao cliente se a ideia do sistema atende as espectativas do cliente, validar
+uma ideia:
+fases da prototipação:
+  - Projeto rápido;
+  - Modelagem Projeto rápido
+  - Construção de um protótipo
+  - Emprego, entrega e realimentação
+  - comunicação 
+Desvantagens paradigma da prototipação:
+- Os clientes costumam achar que o protótipo já é o produto final.
+
+
+- Modelo em espiral
+Modelo mais flexivel a mudanças, absorve melhor as mudanças.
+fases do Modelo em espiral (se passa como uma versão resumida do software e está presente em todo o processo):
+  - comunicação;
+  - planejamento;
+  - Modelagem;
+  - Construção;
+  - emprego
+
+
+- Desenvolvimento baseado em técnicas de 4° geração
+  - Concentra-se na capacidade de se especificar o software para uma máquina em um nível que esteja próximo à 
+    linguagem natural;
+  - Engloba um conjunto de ferramentas de software que possibilitam que:
+    - O sistema seja especificado em uma linguagem de alto nível;
+    - O código fonte seja gerado automáticamente a partir dessas especificações
+
+
+- Desenvolvimento baseado em componentes
+  - Desenvolve aplicações a partir de componentes de sotware pré-empacotados.
+  - conduz ao:
+    - reúso do software e a reusabilidade proporciona uma série de benefícios mensuráveis aos engenheiros de software
+    - A equipe de engenharia de software pode conseguir uma redução no tempo do ciclo de desenvolvimento e custos do
+      projeto
