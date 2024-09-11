@@ -1,0 +1,33 @@
+Diagrama de Caso de Uso - Engenharia de Software Aula 11
+
+- Por meio de uma linguagem simples, demonstra o comportamento externo do sistema;
+- Mostra o sistema pela perspectiva do usuário, indicando as funções e serviços oferecidos e quais usuários utilizarão cada um deles
+- É o diagrama mais abstrato, informal e flexível, sendo usado no início da modelagem;
+- Pode ser modificado ao longo do desenvolvimento do software;
+- Serve de base para os demais diagramas da UML;
+-  Elementos principais do Diagrama UC (use case):
+    - Atores
+    - Caso de uso
+    - Associações
+
+Atores em Diagrama de caso de uso:
+
+- Representam os papéis dos diversos usuários do sistema;
+- Tem uma meta específica que quer atingir/obter ao usar o sistema;
+- Podem representar um ser humano, um periférico de hardware ou outro sistema;
+- É representado, na UML, pelo "stickman"
+
+Caso de Uso:
+ Quanto ao nome:
+   - Deve ser único, intuitivo e autoexplicativo;
+   - Deve definir o resultado observável que o caso de uso fornece ao ator;
+   - Deve estar na perspectiva do ator que "dispara" o UC;
+   - Deve descrever o comportamento sustentado pelo UC;
+   - Deve iniciar com verbo no infinitivo; exemplo: fazer, ir, jogar...
+
+É representado, na UML, por uma elipse com o Nome do UC (use case)em seu interior
+
+Associação de comunicação:
+- Representam um diálogo completo entre Ator e um UC;
+- Especialização/Generalização: ocorre quando há características semelhantes (e com poucas diferenças entre si) entre caso de uso
+ou entre Atores (nunca entre UC e Ator!);
