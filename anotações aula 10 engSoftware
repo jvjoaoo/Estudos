@@ -1,0 +1,27 @@
+Introdução a UML - Engenharia de Software Aula 10
+
+O que é o UML?
+UML (Unified Modeling Language - Linguagem de modelagem unificada) é "uma linguagem padrão para descrever/documentar projetos de 
+software. A UML pode ser usada para visualizar, especificar, construir e documentar os artefatos de um sistema de software. Utilizamos
+atualmente a versão 2.0 da UML.
+
+A UML fornece 13 diferentes diagramas para uso na modelagem de software. Com base nos diagramas os análistas desenham como a
+aplicação sera construida pelos desenvolvedores que irão codar.
+
+Principais Diagramas:
+- De classe;
+- Distribuição;
+- Caso de uso;
+- Sequência;
+- Comunicação;
+- Atividade;
+- Estado.
+
+Quais diagramas devemos usar?
+O que melhor se aplica as necessidades do nosso software, os que sejam mais úteis para dar uma visão adequada do sistema.
+
+Diagramas mais usados:
+- Caso de uso;
+- De classe;
+- Atividade; 
+- Sequência;
