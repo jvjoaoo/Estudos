@@ -1,7 +1,14 @@
 Abordagens da Engenharia de Software
 
 - O modelo de processo incremental
-O modelo incremental ao inves de tratar o software como um todo, ele trata pequenos incrementos (partes) do software
+O modelo incremental ao inves de tratar o software como um todo, ele trata pequenos incrementos (partes) do software.
+
+As vantagens desse modelos são : 
+- Incrementos podem ser entregues regularmente ao cliente e, desse modo, a funcionalidade do sistema é disponibilizada mais cedo. 
+- Os incrementos iniciais agem como protótipos para elucidar os requisitos para incrementos posteriores do sistema.
+- Menor risco de falha geral do projeto
+- Os serviços de sistema de mais alta prioridade tendem a receber mais testes
+
 
 - RUP
 A abordagem em RUP é feita em 4 fases sendo elas:
