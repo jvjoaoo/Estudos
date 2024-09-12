@@ -29,5 +29,14 @@ Caso de Uso:
 
 Associação de comunicação:
 - Representam um diálogo completo entre Ator e um UC;
-- Especialização/Generalização: ocorre quando há características semelhantes (e com poucas diferenças entre si) entre caso de uso
-ou entre Atores (nunca entre UC e Ator!);
+
+- Especialização/Generalização: ocorre quando há características semelhantes (e com poucas diferenças entre si)
+ entre caso de uso ou entre Atores (nunca entre UC e Ator!);
+
+- Inclusão: quando existe uma situação ou rotina comum a mais de um caso de uso (evitar repetições);
+ estereótipo <<INCLUDE>>; Seta aponta para o UC inluindo;
+
+Extensão: para descrever cenários opcionais de um UC, só quando certa condição for satisfeita; estereótipo <<EXTEND>>; seta 
+aponta para o UC que extende.
+
+
