@@ -1,0 +1,47 @@
+Diagramas de Classe UML - Engenharia de Software
+
+- É o mais utilizado da UML;
+- Permite a visualização das classes utilizadas pelo sistema e como elas se relacionam;
+- Apresenta uma visão estática da organização das classes, definindo sua estrutura lógica;
+- Pode ser usado para definir um modelo lógico de um banco de dados (mas, uma classe não corresponde a uma tabela no BD);
+- Cada classe é representada por um nome de classe, lista de atributos e lista de operações (métodos).
+
+Exemplo de representação de classe:
+
+_____________________
+|  Classe: Empresa  |
+|---- atributos ----|         
+|cnpj: int          |   
+|nome: string       |
+|endereco: string   |
+|ramo: string       |
+|-------------------|
+|+visualizar(): void|  --------
+_____________________         |
+                              |------>  _______________________
+                                        | Classe: funcionario |
+                                        |----- atributos -----|
+                                        |cpf: int             |
+                                        |nome: string         |
+                                        |dataNascimento: date |
+                                        |---------------------|
+                                        |+lista(): void       |
+                                        _______________________
+
+- Associações: Compartilhamento de informações e colaboração dos processos do sistema, descrevem o vínculo entre objetos de uma
+ou mais classes. Navegabilidade(caminho da informação) e multiplicidade(números mínimos e máximos de objetos envolvidos);
+
+
+Diagrama de Sequência - Engenharia de Software
+
+- Procura determinar a sequência de eventos que ocorrem em um processo;
+- Identifica quais métodos devem ser disparados entre atores e objetos envolvidos e em qual ordem;
+- Baseia-se no Diagrama de UC: normalmente há um diagrama de sequência para cada UC (cada UC é um processo disparado pelo Ator);
+- Também depende do Diagrama de classes: classes dos objetos declarados, além dos métodos;
+
+Diagrama de Atividade
+
+- Maior ênfase ao nível de algoritmo (um dos mais detalhistas);
+- Utilizado para modelar atividades, que podem ser método, algoritmo ou um processo completo;
+- Semelhante aos antigos "fluxogramas"
+- Participação de atividades: representar o fluxo de um processo que envolve diversos atores (ou departamento, setor, etc...)
