@@ -1,0 +1,51 @@
+Introdução ao protocolo HTTP
+
+- O que é a Internet?
+> A internet é formada por diversas redes de computadores conectadas entre si, trocando informações de todo tipo a todo instante.
+De uma simples mensagem de e-mail até o streaming de um vídeo, temos computadores (além de outros dispositivos conectados) trocando 
+mensagens de forma padronizada e organizada.
+
+- Como é feia essa troca e Quais tecnologias estão envolvidas?
+> Sabemos que tudo começa no navegador de internet, o software que todos os computadores e dispositivos móveis possuem para entrar
+nos sites da internet. Entender as partes envolvidas nesse processo, mesmo que de forma mais superficial, nos permite ter uma
+compreensão muito importante para o desenvolvimento de aplicações na web, seja qual for o foco desta aplicação.
+
+Modelo Cliente-Servidor
+
+Em termos gerais, essa troca de mensagem é feita sempre através de um aparelho que requisita (solicita) alguma informação e outro
+que responde a essa solicitação. Essa forma de comunicação, onde um ponto requisita uma informação e outro responde com ela é 
+representada pelo modelo cliente-servidor.
+
+O modelo cliente-servidor abrange uma variedade de sistemas além da web, como por exemplo os caixa eletrônicos, pontos de venda
+em lojas, sistemas de e-mails, etc. Na internet, costumeiramente, o cliente será o navegador de internet e o servidor algum computador que
+hospeda páginas e outros recursos (imagens, vídeos, arquivos word ou PDF, arquivos com código CSS, etc) que podem ser solicitados
+pelo navegador(cliente).
+
+Caminho de uma requisição
+
+> Ao digitarmos o endereço do site que queremos acessar no navegador, a requisição feita por ele passa por diversos componentes,
+tecnologias e protocolos antes de podermos ver o resultado. Entender o papel de alguns destes pedaços ajuda a parceber a complexidade
+envolvida na construção da web e a construir aplicações com foco no funcionamento do sistema completo.
+
+Tudo começa com o usuário manipulando o navegador para pedir algum recurso (em geral uma página web). Para isso, ele digita o endereço do 
+recurso que ele está procurando na barra de endereço do navegador, usando o formato da URL. Com isso, o navegador empacota o pedido para o 
+sistema operacional, usando o protocolo HTTP como o pacote da mensagem.
+
+Caso o navegador não saiba o IP (Internet Protocol) do domínio digitado (se for a primeira vez que visita o site, por exemplo),
+ o sistema operacional pergunta ao servidor de DNS (Domain Name System), que é o serviço responsável por traduzir domínios para IPs públicos na Internet. Essa conexão tradicionalmente é feita usando o protocolo UDP (User Datagram Protocol) que é um protocolo de transporte de mensagens característico por ser mais rápido por não checar se a informação chegou ou não ao destinatário. O IP é um protocolo de endereçamento na Internet, formado por números de 32 bits (IPv4) ou 128 bits (IPv6).
+
+Após descobrir o IP público do servidor que possui o site pedido, o sistema operacional passa a mensagem para a interface de 
+rede que irá estabelecer uma conexão com o servidor que possui o IP solicitado. A partir daqui, esses dados trafegam pela 
+Internet usando protocolo TCP (Transfer Control Protocol) que, ao contrário do UDP, sempre verifica se a mensagem de fato 
+chegou ao destinatário, fazendo com que seja um protocolo mais robusto (mas com uma perda no desempenho quando comparado com o 
+UDP).
+
+Com o IP e a conexão TCP estabelecida, a requisição HTTP chega ao servidor. Lá, ela precisa ser desempacotada por algum 
+programa que entenda o protocolo HTTP, nesse caso chamado de servidor de aplicação HTTP, onde os exemplos mais famosos são o 
+Apache, Nginx (pronuncia-se “engine-X”) e o Microsoft IIS. Na maioria dos casos esses softwares apenas traduzem a mensagem e 
+repassam para alguma outra aplicação, que irá executar as ações necessárias para retornar a resposta para o cliente.
+
+Com a resposta já formada, o servidor de aplicação HTTP a empacota para o retorno ao cliente (passando por todos os pontos 
+novamente). Chegando no navegador (cliente), ele usa seus recursos para interpretar a resposta e mostrar o resultado ao 
+usuário. Em geral, esses recursos são escritos usando as linguagens que o navegador consegue interpretar, como por exemplo o 
+HTML, CSS e JavaScript.
